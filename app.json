@@ -26,7 +26,7 @@
       "output": "static",
       "favicon": "./assets/images/icon/Gambar1.png"
     },
-    "plugins": ["expo-router"],
+    "plugins": ["expo-router", "expo-font"],
     "experiments": {
       "typedRoutes": true
     }
