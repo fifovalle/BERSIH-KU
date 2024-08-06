@@ -43,7 +43,7 @@ Kontribusi dan umpan balik dari komunitas sangat dihargai. Jika Anda ingin berko
 2. Jalankan aplikasi menggunakan Expo.
 
    ```
-   cd Bersih-Ku
+   cd BERSIH-KU
    npx expo start
    ```
 
