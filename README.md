@@ -10,6 +10,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan aplikasi m
 ### 🚀 Fitur Utama
 
 - **User Interface:** Percikan
+- **User Interface:** Autentikasi
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -22,6 +23,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan aplikasi m
 Berikut adalah beberapa tampilan halaman website :
 
 ![1](https://github.com/user-attachments/assets/5b1a4675-c97d-436e-9d14-2bc41c2d933b)
+![2](https://github.com/user-attachments/assets/9795a14b-7e82-49a2-91a4-26624fe071a2)
 
 ## 📬 Kontak
 
