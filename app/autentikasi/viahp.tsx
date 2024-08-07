@@ -1,6 +1,8 @@
+import React from "react";
+import { router as jalur } from "expo-router";
 import { Image, Text, TouchableOpacity, View, TextInput } from "react-native";
 
-export default function Index() {
+export default function viahp() {
   const bentuk1 = require("../../assets/images/bentuk/Bentuk1.png");
   const gambar1 = require("../../assets/images/ikon/Gambar1.png");
   const gambar2 = require("../../assets/images/ikon/Bendera.png");
@@ -44,6 +46,7 @@ export default function Index() {
           className="flex-row items-center justify-center w-[22rem] mx-auto border rounded-xl p-2 my-16 gap-5"
           style={{ borderColor: "#6EB7C1" }}
           activeOpacity={0.7}
+          onPress={() => jalur.push("./verifikasihp")}
         >
           <Text
             className="text-[#6EB7C1] font-bold"

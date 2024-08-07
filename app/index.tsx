@@ -1,3 +1,4 @@
+import React from "react";
 import { router as jalur } from "expo-router";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 

@@ -1,3 +1,4 @@
+import React from "react";
 import { Stack } from "expo-router";
 import { Lato_900Black, Lato_700Bold, useFonts } from "@expo-google-fonts/lato";
 
@@ -13,6 +14,7 @@ export default function RootLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="viahp" />
+      <Stack.Screen name="verifikasihp" />
     </Stack>
   );
 }

@@ -1,3 +1,4 @@
+import React from "react";
 import { Stack } from "expo-router";
 import { Lato_900Black, Lato_700Bold, useFonts } from "@expo-google-fonts/lato";
 import "../global.css";
