@@ -1,11 +1,10 @@
-import { useRouter } from "expo-router";
+import { router as jalur } from "expo-router";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
   const bentuk1 = require("../assets/images/bentuk/Bentuk1.png");
   const bentuk2 = require("../assets/images/bentuk/Bentuk2.png");
   const gambar1 = require("../assets/images/ikon/Gambar1.png");
-  const jalur = useRouter();
   return (
     <View className="flex-1 items-center justify-center bg-[#6EB7C1] relative">
       <View className="absolute top-0">
