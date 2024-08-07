@@ -13,9 +13,9 @@ export default function Index() {
       <View className="flex items-center justify-center pb-28">
         <Image source={gambar1} className="w-[300px] h-[200px]" />
       </View>
-      <View className="absolute bottom-0 w-screen rounded-xl bg-white shadow-xl">
+      <View className="absolute bottom-0 w-screen rounded-t-xl bg-white shadow-xl">
         <TouchableOpacity
-          className="flex-row items-center justify-center w-[22rem] mx-auto border rounded-t-xl p-2 my-16 gap-5"
+          className="flex-row items-center justify-center w-[22rem] mx-auto border rounded-xl p-2 my-16 gap-5"
           style={{ borderColor: "#6EB7C1" }}
           activeOpacity={0.7}
         >
