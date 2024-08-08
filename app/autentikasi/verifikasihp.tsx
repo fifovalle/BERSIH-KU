@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
 import { Image, Text, TouchableOpacity, View, TextInput } from "react-native";
+import Bentuk1 from "./components/bentuk1";
 
 export default function VerifikasiHP() {
-  const bentuk1 = require("../../assets/images/bentuk/Bentuk1a.png");
   const gambar1 = require("../../assets/images/ikon/Gambar4.png");
   const [nilaiMasukan, aturNilaiMasukan] = useState<string[]>(["", "", "", ""]);
 
@@ -24,7 +24,7 @@ export default function VerifikasiHP() {
   return (
     <View className="flex-1 items-center justify-center bg-[#fff] relative">
       <View className="absolute top-0">
-        <Image source={bentuk1} className="w-screen h-[400px]" />
+        <Bentuk1 />
       </View>
       <View className="flex items-center justify-center pb-36 -z-10">
         <Image source={gambar1} className="w-[300px] h-[300px]" />

@@ -1,15 +1,15 @@
 import { router as jalur } from "expo-router";
 import { Image, Text, TouchableOpacity, View } from "react-native";
+import Bentuk1 from "./components/bentuk1";
 
 export default function Index() {
-  const bentuk1 = require("../../assets/images/bentuk/Bentuk1a.png");
   const gambar1 = require("../../assets/images/ikon/Gambar2.png");
   const hp = require("../../assets/images/ikon/HP.png");
   const google = require("../../assets/images/ikon/Google.png");
   return (
     <View className="flex-1 items-center justify-center bg-white relative">
       <View className="absolute top-0">
-        <Image source={bentuk1} className="w-screen h-[400px]" />
+        <Bentuk1 />
       </View>
       <View className="flex items-center justify-center pb-36 -z-10">
         <Image source={gambar1} className="w-[300px] h-[300px]" />
@@ -28,7 +28,7 @@ export default function Index() {
           className="flex-row items-center justify-center w-[22rem] mx-auto border rounded-xl p-2 my-16 gap-5"
           style={{ borderColor: "#012D68" }}
           activeOpacity={0.7}
-          onPress={() => jalur.push("./viahp")}
+          onPress={() => jalur.push("/autentikasi/viahp")}
         >
           <Image source={hp} className="w-[30px] h-[30px]" />
           <Text
