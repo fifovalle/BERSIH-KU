@@ -1,30 +1,38 @@
-import React from "react";
 import { router as jalur } from "expo-router";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
-  const bentuk1 = require("../../assets/images/bentuk/Bentuk1.png");
-  const gambar1 = require("../../assets/images/ikon/Gambar1.png");
+  const bentuk1 = require("../../assets/images/bentuk/Bentuk1a.png");
+  const gambar1 = require("../../assets/images/ikon/Gambar2.png");
   const hp = require("../../assets/images/ikon/HP.png");
   const google = require("../../assets/images/ikon/Google.png");
   return (
-    <View className="flex-1 items-center justify-center bg-[#6EB7C1] relative">
+    <View className="flex-1 items-center justify-center bg-white relative">
       <View className="absolute top-0">
         <Image source={bentuk1} className="w-screen h-[400px]" />
       </View>
-      <View className="flex items-center justify-center pb-28">
-        <Image source={gambar1} className="w-[300px] h-[200px]" />
+      <View className="flex items-center justify-center pb-36 -z-10">
+        <Image source={gambar1} className="w-[300px] h-[300px]" />
       </View>
-      <View className="absolute bottom-0 w-screen rounded-t-xl bg-white shadow-xl">
+      <View
+        className="absolute bottom-0 w-screen rounded-t-xl bg-white"
+        style={{
+          shadowColor: "#000",
+          shadowOffset: { width: 0, height: 2 },
+          shadowOpacity: 0.25,
+          shadowRadius: 3.84,
+          elevation: 5,
+        }}
+      >
         <TouchableOpacity
           className="flex-row items-center justify-center w-[22rem] mx-auto border rounded-xl p-2 my-16 gap-5"
-          style={{ borderColor: "#6EB7C1" }}
+          style={{ borderColor: "#012D68" }}
           activeOpacity={0.7}
-          onPress={() => jalur.push("./autentikasi/viahp")}
+          onPress={() => jalur.push("./viahp")}
         >
           <Image source={hp} className="w-[30px] h-[30px]" />
           <Text
-            className="text-[#6EB7C1] font-bold"
+            className="text-[#012D68] font-bold"
             style={{ fontFamily: "Lato_700Bold" }}
           >
             Masuk Dengan Nomor Ponsel
@@ -38,12 +46,12 @@ export default function Index() {
         </Text>
         <TouchableOpacity
           className="flex-row items-center justify-center w-[22rem] mx-auto border rounded-xl p-2 my-16 gap-5"
-          style={{ borderColor: "#6EB7C1" }}
+          style={{ borderColor: "#012D68" }}
           activeOpacity={0.7}
         >
           <Image source={google} className="w-[25px] h-[25px]" />
           <Text
-            className="text-[#6EB7C1] font-bold"
+            className="text-[#012D68] font-bold"
             style={{ fontFamily: "Lato_700Bold" }}
           >
             Masuk Dengan Akun Google

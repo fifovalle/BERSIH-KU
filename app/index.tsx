@@ -1,4 +1,3 @@
-import React from "react";
 import { router as jalur } from "expo-router";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 
@@ -7,12 +6,12 @@ export default function Index() {
   const bentuk2 = require("../assets/images/bentuk/Bentuk2.png");
   const gambar1 = require("../assets/images/ikon/Gambar1.png");
   return (
-    <View className="flex-1 items-center justify-center bg-[#6EB7C1] relative">
+    <View className="flex-1 items-center justify-center bg-[#012D68] relative">
       <View className="absolute top-0">
         <Image source={bentuk1} className="w-screen h-[400px]" />
       </View>
-      <View className="flex items-center justify-center pb-7">
-        <Image source={gambar1} className="w-[300px] h-[200px]" />
+      <View className="flex items-center justify-center pb-3">
+        <Image source={gambar1} className="w-[300px] h-[260px]" />
         <Text
           className="text-white text-3xl text-center font-bold"
           style={{ fontFamily: "Lato_900Black" }}
@@ -32,7 +31,7 @@ export default function Index() {
         >
           <View className="mx-2">
             <Text
-              className="text-[#6EB7C1] font-bold"
+              className="text-[#012D68] font-bold"
               style={{ fontFamily: "Lato_700Bold" }}
             >
               MASUK
