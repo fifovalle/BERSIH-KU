@@ -13,6 +13,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan aplikasi m
 - **User Interface:** Autentikasi
 - **User Interface:** Autentikasi Via Nomor HP
 - **User Interface:** Autentikasi Verifikasi Kode Nomor HP
+- **User Interface:** Beranda
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -28,6 +29,7 @@ Berikut adalah beberapa tampilan halaman website :
 ![2](https://github.com/user-attachments/assets/1e5e1bb2-feb1-4525-93e6-1c650ba8f9dd)
 ![3](https://github.com/user-attachments/assets/24caf9b6-25aa-47ef-ac48-1231ce995eca)
 ![4](https://github.com/user-attachments/assets/56e99256-4b34-4e7f-a1c4-55d820e87566)
+![5](https://github.com/user-attachments/assets/6a2e08a1-2528-463f-8ae4-c96b0654c7fa)
 
 ## 📬 Kontak
 

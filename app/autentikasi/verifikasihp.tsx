@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { router as jalur } from "expo-router";
 import { Image, Text, TouchableOpacity, View, TextInput } from "react-native";
 import Bentuk1 from "./components/bentuk1";
 
@@ -74,6 +75,7 @@ export default function VerifikasiHP() {
           className="flex-row items-center justify-center w-[22rem] mx-auto border rounded-xl p-2 my-16 gap-5"
           style={{ borderColor: "#012D68" }}
           activeOpacity={0.7}
+          onPress={() => jalur.push("../utama")}
         >
           <Text
             className="text-[#012D68] font-bold"
