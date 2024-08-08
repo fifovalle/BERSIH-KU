@@ -23,7 +23,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan aplikasi m
 
 ## 📷 Preview Halaman
 
-Berikut adalah beberapa tampilan halaman website :
+Berikut adalah beberapa tampilan halaman bersih ku :
 
 ![1](https://github.com/user-attachments/assets/d1fa9f30-28ea-472d-8b9e-1622732004d4)
 ![2](https://github.com/user-attachments/assets/1e5e1bb2-feb1-4525-93e6-1c650ba8f9dd)
