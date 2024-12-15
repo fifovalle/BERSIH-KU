@@ -25,11 +25,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan aplikasi m
 
 Berikut adalah beberapa tampilan halaman bersih ku :
 
-![1](https://github.com/user-attachments/assets/d1fa9f30-28ea-472d-8b9e-1622732004d4)
-![2](https://github.com/user-attachments/assets/1e5e1bb2-feb1-4525-93e6-1c650ba8f9dd)
-![3](https://github.com/user-attachments/assets/24caf9b6-25aa-47ef-ac48-1231ce995eca)
-![4](https://github.com/user-attachments/assets/56e99256-4b34-4e7f-a1c4-55d820e87566)
-![5](https://github.com/user-attachments/assets/6a2e08a1-2528-463f-8ae4-c96b0654c7fa)
+![Gambar](https://github.com/user-attachments/assets/1f049539-6696-4378-a92a-6bc122f71975)
 
 ## 📬 Kontak
 
